@@ -1,8 +1,9 @@
 def roll_call_dwarves(array) 
       array.each_with_index do |value, index|
         puts "#{index.to_i+1} #{value}"
- end 
+  end 
 end
+
 
 def summon_captain_planet(planeer_calls)
     planeer_calls.map do |name|
@@ -19,6 +20,7 @@ def long_planeteer_calls(calls_long)
      return FALSE
    end
 end
+
 
 def find_the_cheese(cheese)
     i = 0
